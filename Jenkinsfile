@@ -5,8 +5,7 @@ pipeline {
   stages {
     stage ('print_var'){
       steps {
-        echo $param1
-        echo $param2
+        echo Hello
       }
     }
   }
